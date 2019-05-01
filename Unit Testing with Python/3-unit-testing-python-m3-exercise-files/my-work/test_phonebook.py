@@ -4,13 +4,9 @@ from phonebook import Phonebook
 
 
 @pytest.fixture
-def phonebook(request):
-    phonebook = Phonebook()
-
-    def cleanup_phonebook():
-        phonebook.clear()
-
-    request.addfinalizer(cleanup_phonebook)
+def phonebook(tmpdir):
+    "Provides an empty Phonebook"
+    phonebook = Phonebook(tmpdir)
     return phonebook
 
 
