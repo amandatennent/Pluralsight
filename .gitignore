@@ -124,3 +124,9 @@ dmypy.json
 
 .idea/
 .DS_Store
+
+node_modules
+typings
+/app/**/*.js
+/app/**/*.map
+.vscode/
