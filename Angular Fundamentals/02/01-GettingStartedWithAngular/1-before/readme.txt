@@ -1,0 +1,1 @@
+Each module will have a before and after folder for the starting and ending state of the code. Module 1, however, has no starting point.  Follow along with the course to get started or check out the "finished" folder for the module 1 ending point. 
